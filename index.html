@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Webpage - Caleb Baraka</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <h1>Interactive Webpage</h1>
+    <button id="themeToggle">Toggle Dark/Light Mode</button>
+  </header>
+
+  <!-- COUNTER FEATURE -->
+  <section>
+    <h2>Counter Game</h2>
+    <p>Clicks: <span id="counterDisplay">0</span></p>
+    <button id="counterBtn">Click Me</button>
+  </section>
+
+  <!-- FAQ SECTION -->
+  <section>
+    <h2>FAQ</h2>
+    <div class="faq">
+      <h3 class="faq-question">What is JavaScript?</h3>
+      <p class="faq-answer">JavaScript is a programming language for adding interactivity to web pages.</p>
+    </div>
+    <div class="faq">
+      <h3 class="faq-question">Why use JavaScript?</h3>
+      <p class="faq-answer">It allows you to build dynamic, user-friendly experiences on the web.</p>
+    </div>
+  </section>
+
+  <!-- FORM SECTION -->
+  <section>
+    <h2>Signup Form</h2>
+    <form id="signupForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Enter your name">
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" placeholder="Enter your email">
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" placeholder="Enter password">
+
+      <button type="submit">Submit</button>
+    </form>
+    <p id="errorMsg"></p>
+  </section>
+
+  <!-- HOVER BOX -->
+  <section>
+    <h2>Hover Effect</h2>
+    <div id="hoverBox">Hover over me!</div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
